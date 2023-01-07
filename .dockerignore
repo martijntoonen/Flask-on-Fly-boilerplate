@@ -1,0 +1,26 @@
+# flyctl launch added from .gitignore
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+**/*.py[cod]
+**/*$py.class
+
+# Environments
+**/.env
+**/.venv
+
+# Secrets
+**/*secrets
+
+# Pycharm
+**/.idea
+
+# Private documentation
+**/.documentation
+
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+
+# Docker
+Dockerfile

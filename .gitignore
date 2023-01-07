@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+
+# Secrets
+*secrets
+
+# Pycharm
+.idea
+
+# Local database
+db.sqlite
