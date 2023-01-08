@@ -34,7 +34,7 @@ Deploying on fly.io:
 
 5. First db migrations:
 - Initialize db locally: flask --app main db init --> file db.sqlite created
-- Add first migration to repository: flask --app main db -m "first db migration" --> git add migrations folder
+- Add first migration to repository: flask --app main db migrate -m "first db migration" --> git add migrations folder
 - Upgrade db locally: flask --app main db upgrade
 - Edit fly.toml --> create [deploy] section and add to it: release_command = "flask --app main db upgrade"
 - Push project to main --> postgres db working remotely
